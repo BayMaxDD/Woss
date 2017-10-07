@@ -1,0 +1,12 @@
+2017-09-22 15:18:27,420  INFO [main] (LoggerImpl.java:40) - briup-->等待连接
+2017-09-22 15:18:35,148  INFO [main] (LoggerImpl.java:40) - briup-->与客户端连接成功
+2017-09-22 15:18:35,148  INFO [main] (LoggerImpl.java:40) - briup-->与服务器连接成功
+2017-09-22 15:18:49,933 ERROR [main] (LoggerImpl.java:28) - briup-->模拟数据库传输数据存在异常
+2017-09-24 14:58:37,866  INFO [main] (LoggerImpl.java:40) - briup-->等待连接
+2017-09-24 14:59:08,781  INFO [main] (LoggerImpl.java:40) - briup-->与客户端连接成功
+2017-09-24 14:59:08,799  INFO [main] (LoggerImpl.java:40) - briup-->与服务器连接成功
+2017-09-24 15:00:21,166 ERROR [main] (LoggerImpl.java:28) - briup-->模拟数据库传输数据存在异常
+2017-09-24 18:41:09,202  INFO [main] (LoggerImpl.java:40) - briup-->等待连接
+2017-09-24 18:41:20,627  INFO [main] (LoggerImpl.java:40) - briup-->与客户端连接成功
+2017-09-24 18:41:20,628  INFO [main] (LoggerImpl.java:40) - briup-->与服务器连接成功
+2017-09-24 18:42:56,940 ERROR [main] (LoggerImpl.java:28) - briup-->模拟数据库传输数据存在异常

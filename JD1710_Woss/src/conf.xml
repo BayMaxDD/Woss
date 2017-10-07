@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<woss>
+	<gather class="com.briup.client.GatherImpl">
+		<src-file>src/com/briup/file/radwtmp</src-file>
+		<pos-file>src/com/briup/file/position.txt</pos-file>
+		<backup-file>src/com/briup/file/backups.txt</backup-file>
+	</gather>
+	
+	<client class="com.briup.client.ClientImpl">
+		<ip>127.0.0.1</ip>
+		<port>9999</port>
+	</client>
+	
+	<server class="com.briup.server.ServerImpl">
+		<port>9999</port>
+	</server>
+	
+<!-- 	<dbpool class = "com.briup.server.ConnPool">
+		<url>jdbc:oracle:thin:@localhost:1521:XE</url>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<userName>briup</userName>
+		<passWord>briup</passWord>
+		<init_size>5</init_size>
+		<max_size>20</max_size>
+		<curr_size>0</curr_size>
+	</dbpool> -->
+	
+	<dbstore class="com.briup.server.DBStoreImpl_Pool">
+		<backup-file>src/com/briup/file/backups2.txt</backup-file>
+		<batch-size>300</batch-size>
+	</dbstore>
+	
+	<logger class="com.briup.util.LoggerImpl">
+		<log-properties>src/log4j.properties</log-properties>
+	</logger>
+	
+	<backup class="com.briup.util.BackUPImpl">
+	</backup>
+</woss>
